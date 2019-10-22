@@ -3,12 +3,146 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ikejs (Ike)</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="http://pngimg.com/uploads/github/github_PNG63.png" style="width:50px;"></a>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search or jump to..." aria-label="Search or jump to...">
+            </form>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pull requests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Issues</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Marketplace</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Explore</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item active" style="margin-top:6px;">
+                    <a class="nav-link">
+                        <span class="fa fa-bell"></span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown ml-auto active" style="margin-top:6px;">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="fa fa-plus"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">New repository</a>
+                        <a class="dropdown-item" href="#">Import repository</a>
+                        <a class="dropdown-item" href="#">New gist</a>
+                        <a class="dropdown-item" href="#">New organization</a>
+                        <a class="dropdown-item" href="#">New project</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ml-auto">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="https://avatars2.githubusercontent.com/u/6834907?s=460&v=4" class="rounded" style="width:40px;">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <p class="col-md-12"><small>Signed in as <strong>ikejs</strong></small></p>
+                        <div class="dropdown-divider"></div>
+                        <div class="input-group mb-3 dropdown-header">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text fa fa-smile-o" id="basic-addon1"></span>
+                            </div>
+                            <input type="text" class="form-control form-control-sm" placeholder="Status" aria-label="Status" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Your profile</a>
+                        <a class="dropdown-item" href="#">Your repositories</a>
+                        <a class="dropdown-item" href="#">Your projects</a>
+                        <a class="dropdown-item" href="#">Your stars</a>
+                        <a class="dropdown-item" href="#">Your gists</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Feature preview</a>
+                        <a class="dropdown-item" href="#">Help</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Sign out</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-3 offset-md-1 mt-4">
+            <img class="img-fluid img-thumbnail" src="https://avatars2.githubusercontent.com/u/6834907?s=460&v=4">
+            <div class="mt-2 col-md-10">
+                <h3>Ike</h3>
+                <p class="lead text-muted">ikejs</p>
+                <hr>
+                <p class="text-muted"><span class="fa fa-star"></span> <span class="badge badge-info">PRO</span></p>
+                <button class="bt btn-block btn-secondary mt-4">
+                    Edit Profile
+                </button>
+                <p class="mt-4"><span class="text-muted fa fa-map-marker"></span> United States</p>
+                <p><span class="text-muted fa fa-envelope"></span> <a href="mailto:ikescode@gmail.com">ikescode@gmail.com</a></p>
+                <hr>
+                <h5>Organizations</h5>
+                <a href="http://github.com/hometowntickets" target="_blank">
+                    <img src="https://avatars3.githubusercontent.com/u/4491299?s=70&v=4" style="width:50px;">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-7 mt-4">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="" role="tab" aria-selected="true">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="" role="tab" aria-selected="false">Repositories <span class="badge badge-secondary">26</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="" role="tab" aria-selected="false">Projects <span class="badge badge-secondary">0</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="" role="tab" aria-selected="false">Packages <span class="badge badge-secondary">0</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="" role="tab" aria-selected="false">Stars <span class="badge badge-secondary">1</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="" role="tab" aria-selected="false">Followers <span class="badge badge-secondary">10</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="" role="tab" aria-selected="false">Following <span class="badge badge-secondary">9</span></a>
+                </li>
+            </ul>
+            <p class="mt-4">Popular repositories</p>
+            <div class="row col-md-12">
+                <div class="card col-md-5 m-2 p-4">
+                    <a href=""><strong>My repo</strong></a>
+                    <p class="text-muted mt-4">Description</p>
+                </div>
+                <div class="card col-md-5 m-2 p-4">
+                    <a href=""><strong>My repo</strong></a>
+                    <p class="text-muted mt-4">Description</p>
+                </div>
+                <div class="card col-md-5 m-2 p-4">
+                    <a href=""><strong>My repo</strong></a>
+                    <p class="text-muted mt-4">Description</p>
+                </div>
+                <div class="card col-md-5 m-2 p-4">
+                    <a href=""><strong>My repo</strong></a>
+                    <p class="text-muted mt-4">Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
